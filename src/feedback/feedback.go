@@ -1,4 +1,4 @@
-package jenkins
+package feedback
 
 import "encoding/xml"
 
