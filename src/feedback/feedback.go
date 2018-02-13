@@ -7,7 +7,7 @@ type Feedback struct {
 	Item    []Item   `xml:"item"`
 }
 
-func (fb *Feedback) addItem(item Item) {
+func (fb *Feedback) AddItem(item Item) {
 	fb.Item = append(fb.Item, item)
 }
 

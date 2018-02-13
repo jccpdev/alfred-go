@@ -20,7 +20,7 @@ func Test_it_can_make_a_feedback_xml_structure(t *testing.T) {
 
 	fb := &Feedback{}
 
-	fb.addItem(Item{
+	fb.AddItem(Item{
 		expectedUid,
 		expectedArg,
 		expectedValid,
@@ -65,7 +65,7 @@ func Test_make_item_with_optional_params(t *testing.T) {
 
 	fb := &Feedback{}
 
-	fb.addItem(Item{
+	fb.AddItem(Item{
 		"",
 		expectedArg,
 		"",
